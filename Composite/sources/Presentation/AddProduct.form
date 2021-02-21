@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Presentation.AddProduct">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="939" height="351"/>
+    </constraints>
+    <properties>
+      <enabled value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="41632" layout-manager="GridLayoutManager" row-count="7" column-count="26" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5e7b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="152" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Base Product Name"/>
+            </properties>
+          </component>
+          <component id="b70fe" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="152" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Final Composite Product"/>
+            </properties>
+          </component>
+          <component id="3300" class="javax.swing.JTextField" binding="baseName">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="23" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="6f35f" class="javax.swing.JTextField" binding="compositeField">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="23" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a53d2" class="javax.swing.JButton" binding="addCompositeItemButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="26" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Add Composite Item"/>
+            </properties>
+          </component>
+          <component id="30786" class="javax.swing.JButton" binding="submitCompositeProductButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="19" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Submit Composite Product"/>
+            </properties>
+          </component>
+          <component id="83bcd" class="javax.swing.JButton" binding="submitBaseProductButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="4" row-span="1" col-span="10" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Submit Base Product"/>
+            </properties>
+          </component>
+          <scrollpane id="c9e7a">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="23" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="131"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="a1f31" class="javax.swing.JTable" binding="table">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="5696c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Base Product Price"/>
+            </properties>
+          </component>
+          <component id="de4a8" class="javax.swing.JTextField" binding="basePrice">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="23" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="28450" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Final Composite Price"/>
+            </properties>
+          </component>
+          <component id="db605" class="javax.swing.JTextField" binding="finalCompositePrice">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="23" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <component id="a6630" class="javax.swing.JLabel" binding="h1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add Product"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
